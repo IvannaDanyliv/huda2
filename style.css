@@ -1,0 +1,81 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image:linear-gradient(#ffa500,#800080);
+
+}
+header {
+  background-color:
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  background-color:
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background-color:
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product p {
+  color: #777;
+}
+
+
+footer {
+  background-color:
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+a{
+  color: white ;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 3px 5px 10px purple;
+}
+a:hover{
+  font-size: 40px;
+  transition: 3s;
+  color: blueviolet;
+}
+.katalog:hover{
+  border: 10px solid rgb(14, 28, 66);
+  transition: 2s;
+  
+}
+h1:hover{
+  color:black;
+}
